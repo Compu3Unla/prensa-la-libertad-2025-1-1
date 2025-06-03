@@ -1,3 +1,97 @@
-*{ hola
-    
+
+header {
+  width: 100%;
+  background: #F1F0CC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  position: fixed;      
+  top: 0;  
+  left: 0;            
+  z-index: 100;         
+}
+
+.logo {
+display: flex;
+align-items: center;
+gap: 40px;
+}
+
+.logo p {
+color: #0E0E33;
+font-family: Marcellus;
+font-size: 24px;
+letter-spacing: 2.4px;
+}
+
+nav {
+display: flex;
+height: 38px;
+align-content: flex-end;
+gap: 1px 43px;
+flex-wrap: wrap;
+/* botones */
+font-family: Marcellus;
+line-height: 42px; 
+text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0E0E33;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+color: #0E0E33;
+}
+
+/* MAIN */
+/* VIDEO DE FONDO */
+.video-wrapper {
+  position: relative;
+  height: 100vh; 
+  overflow: hidden;
+}
+
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  padding-top: 96px; 
+  padding-bottom: 80px;
+}
+
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #F1F0CC;
+  text-align: center;
+  padding: 1rem 0;
+  z-index: 10;
+  font-family: Marcellus;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: #0E0E33;
+  margin: 0;
 }
