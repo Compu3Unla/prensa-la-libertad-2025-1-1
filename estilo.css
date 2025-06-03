@@ -8,8 +8,7 @@ header {
   padding: 10px 30px;
   position: fixed;      
   top: 0;  
-  left: 0;            
-  z-index: 100;         
+  left: 0;                     
 }
 
 .logo {
@@ -50,19 +49,13 @@ color: #0E0E33;
 /* MAIN */
 /* VIDEO DE FONDO */
 .video-wrapper {
-  position: relative;
   height: 100vh; 
-  overflow: hidden;
 }
 
 #bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 0;
 }
 
 main {
@@ -75,23 +68,15 @@ main {
 
 /* FOOTER */
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100%;
   background: #F1F0CC;
   text-align: center;
   padding: 1rem 0;
-  z-index: 10;
   font-family: Marcellus;
 }
 
 footer p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
   letter-spacing: 1.6px;
   text-transform: uppercase;
   color: #0E0E33;
-  margin: 0;
 }
