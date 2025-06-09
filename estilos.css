@@ -160,7 +160,73 @@ footer p {
 
 
 
+/*historia*/
 
+.textura_historia {
+   background-image: url(img/img_web/web_textura_historia.jpg);
+    padding: 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    gap: 40px;
+    margin: auto;
+}
+
+.quienes_somos {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 203px;
+    max-width: 576px;
+    margin-right: 800px;
+    margin-top: 50px;
+}
+
+.quienes_somos h3 {
+  color: #F1F0CC;
+text-align: right;
+/* h3 */
+font-family: "Sofia Sans Extra Condensed";
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 120% */
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+ 
+.quienes_somos h1 {
+  color: #F1F1CC;
+
+text-align: right;
+/* h1 */
+font-family: "Sofia Sans Extra Condensed";
+font-size: 100px;
+font-style: normal;
+font-weight: 400;
+line-height: 110px; /* 110% */
+letter-spacing: 10px;
+text-transform: uppercase;
+}
+
+.bloque1 img {
+  width: 940px;
+  height: 950px;
+  margin-left: -40px;
+  margin-top: 300px;
+}
+
+.bloque1 h1 {
+  color: #F1F1CC;
+
+/* h1 */
+font-family: "Franklin Gothic Demi Cond";
+font-size: 100px;
+font-style: normal;
+font-weight: 400;
+line-height: 110px;
+letter-spacing: 10px;
+text-transform: uppercase;
+}
 
 
 
