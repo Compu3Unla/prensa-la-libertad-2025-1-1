@@ -1,0 +1,158 @@
+body {
+  cursor: url('img/estrella_cursor_24x24.svg') 10 10, auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    height: 140px;
+    justify-content: center;
+    background: #F1F0CC;
+    padding: 10px 30px;
+    gap: 250px;
+}
+
+
+.logo {
+    display: flex;
+    flex: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+ nav a {
+    text-decoration: none;
+    color: #0E0E33;
+    letter-spacing: 2px;
+    transition: color 0.3s ease; 
+
+}
+
+ nav a:hover {
+  color: white; 
+  background: #0E0E33; 
+  padding: 15px;
+  border-radius: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-family: Marcellus;
+    line-height: 42px; 
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Marcellus;
+}
+
+.logo p {
+color: #0E0E33;
+font-family: Marcellus;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 2.4px;
+}
+
+/*main _index*/
+
+.video-wrapper {
+  height: 100vh; 
+}
+
+#bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main {
+    z-index: 1;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background: #F1F0CC;
+}
+
+footer p {
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: #0E0E33;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Marcellus;
+
+}
+
+/*catalogo*/
+
+.main_catalogo {
+    background-image: url(img/img_web/web_catalogo_texturas.jpg);
+    background-position: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    gap: 40px;
+    margin: auto;
+}
+
+.main_catalogo p {
+    width: 320px;
+    flex-shrink: 0;
+    color: #0E0E33;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.main_catalogo section {
+    display: flex;
+    gap: 40px;
+}
+
+.boton-vermas {
+    background: #F1F0CC;
+    color: #0E0E33;
+    font-family: Marcellus;
+    font-size: 22px;
+    padding: 10px 25px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.boton-vermas:hover {
+  color: #F1F0CC; 
+  background: #0E0E33; 
+  padding: 15px;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
