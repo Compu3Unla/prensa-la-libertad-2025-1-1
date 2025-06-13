@@ -1,5 +1,9 @@
+@charset "utf-8";
+/*CSS Document*/
+
+
 body {
-  cursor: url('img/estrella_cursor_24x24.svg') 10 10, auto;
+  cursor: url('img/cursor.svg') 10 10, auto;
 }
 
 * {
@@ -15,7 +19,7 @@ header {
     justify-content: center;
     background: #F1F0CC;
     padding: 10px 30px;
-    gap: 250px;
+    gap: 400px;
 }
 
 .logo {
