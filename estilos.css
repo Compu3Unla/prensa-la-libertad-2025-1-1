@@ -2,6 +2,12 @@ body {
   cursor: url('img/estrella_cursor_24x24.svg') 10 10, auto;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* Header */
 header {
     display: flex;
@@ -11,7 +17,6 @@ header {
     padding: 10px 30px;
     gap: 250px;
 }
-
 
 .logo {
     display: flex;
@@ -182,51 +187,81 @@ footer p {
 }
 
 .quienes_somos h3 {
-  color: #F1F0CC;
-text-align: right;
-/* h3 */
-font-family: "Sofia Sans Extra Condensed";
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: 36px; /* 120% */
-letter-spacing: 3px;
-text-transform: uppercase;
+    color: #F1F0CC;
+    text-align: right;
+    font-family: "Sofia Sans Extra Condensed";
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
  
 .quienes_somos h1 {
-  color: #F1F1CC;
+    color: #F1F1CC;
+    text-align: right;
+    font-family: "Sofia Sans Extra Condensed";
+    font-size: 100px;
+    line-height: 110px;
+    letter-spacing: 10px;
+}
 
-text-align: right;
-/* h1 */
-font-family: "Sofia Sans Extra Condensed";
-font-size: 100px;
-font-style: normal;
-font-weight: 400;
-line-height: 110px; /* 110% */
-letter-spacing: 10px;
-text-transform: uppercase;
+.bloque1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: -300px;
+    align-items: flex-end;
 }
 
 .bloque1 img {
-  width: 940px;
-  height: 950px;
+  height: 800px;
   margin-left: -40px;
   margin-top: 300px;
 }
 
 .bloque1 h1 {
-  color: #F1F1CC;
-
-/* h1 */
-font-family: "Franklin Gothic Demi Cond";
-font-size: 100px;
-font-style: normal;
-font-weight: 400;
-line-height: 110px;
-letter-spacing: 10px;
-text-transform: uppercase;
+    margin-left: 40px;
+    color: #F1F1CC;
+    font-family: "Sofia Sans Extra Condensed";
+    font-size: 100px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
 }
+
+.bloque1 p {
+  margin-left: 40px;
+    color: #F1F0CC;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 2.4px;
+    max-width: 900px;
+}
+    
+
+
+.texto_pl {
+  margin-top: 30px;
+}
+
+.bloque2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: -500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.bloque2 h1 {
+    max-width: 500px;
+    color: #F1F0CC;
+    text-align: right;
+    font-family: "Sofia Sans Extra Condensed";
+    font-size: 100px;
+    line-height: 110px;
+    text-transform: uppercase;
+    padding-right: 40px;
+}
+
 
 
 
