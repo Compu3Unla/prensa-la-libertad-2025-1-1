@@ -108,7 +108,11 @@ footer p {
 
 /*catalogo*/
 
-.main_catalogo {
+.main_catalogo 
+.primer-columna
+.segunda-columna
+.tercer-columna
+.cuarta-columna {
     background-image: url(img/img_web/web_catalogo_texturas.jpg);
     background-position: center;
     padding: 40px;
@@ -119,7 +123,11 @@ footer p {
     margin: auto;
 }
 
-.main_catalogo p {
+.main_catalogo p 
+.primer-columna
+.segunda-columna
+.tercer-columna
+.cuarta-columna {
     width: 320px;
     flex-shrink: 0;
     color: #0E0E33;
