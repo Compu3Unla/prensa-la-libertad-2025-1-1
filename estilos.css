@@ -1,6 +1,5 @@
-body {
-  cursor: url('img/estrella_cursor_24x24.svg') 10 10, auto;
-}
+@charset "utf-8";
+/*CSS Document*/
 
 * {
   box-sizing: border-box;
@@ -8,14 +7,20 @@ body {
   padding: 0;
 }
 
-/* Header */
+
+body {
+  cursor: url('img/cursor.svg') 10 10, auto;
+}
+
+
+/* --------------------------------------------------------- Header ----------------------------------------------------------------- */
 header {
     display: flex;
     height: 140px;
     justify-content: center;
     background: #F1F0CC;
     padding: 10px 30px;
-    gap: 250px;
+    gap: 400px;
 }
 
 .logo {
@@ -66,7 +71,7 @@ font-weight: 700;
 letter-spacing: 2.4px;
 }
 
-/*main _index*/
+/* ---------------------------------------------------- main _index ------------------------------------------------------------ */
 
 .video-wrapper {
   height: 100vh; 
@@ -82,27 +87,8 @@ main {
     z-index: 1;
 }
 
-/*footer*/
 
-footer {
-    display: flex;
-    height: 120px;
-    justify-content: center;
-    align-items: center;
-    background: #F1F0CC;
-}
-
-footer p {
-  letter-spacing: 1.6px;
-  text-transform: uppercase;
-  color: #0E0E33;
-  font-size: 22px;
-  font-weight: 700;
-  font-family: Marcellus;
-
-}
-
-/*catalogo*/
+/* --------------------------------------------------- catalogo ---------------------------------------------------- */
 
 .main_catalogo {
     background-image: url(img/img_web/web_catalogo_texturas.jpg);
@@ -120,7 +106,7 @@ footer p {
     flex-shrink: 0;
     color: #0E0E33;
     font-family: "Source Sans Pro";
-    font-size: 20px;
+    font-size: 0,8rem;
     line-height: 30px;
     letter-spacing: 2px;
 }
@@ -164,8 +150,104 @@ footer p {
 }
 
 
+/* ----------------------------------------- catalogo extendido --------------------------------------------- */
 
-/*historia*/
+/* ----------------- Galeria visible -------------------- */
+.galeria-visible {
+  display: grid;
+  grid-template-columns: repeat(4, auto); 
+  column-gap: 20px;                       
+  row-gap: 30px;                          
+  justify-content: center;               
+  padding: 40px 0;                        
+}
+
+.galeria-visible a img {
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.galeria-visible a img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.galeria-visible p {
+    margin-bottom: 30px;
+}
+
+/* -------------------- Galería oculta ----------------------- */
+.galeria-oculta {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.galeria-oculta ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup-contenido {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.popup-contenido:target {
+  display: flex;
+}
+
+.popup-contenido img {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.popup-contenidoa p {
+  margin-top: 0; 
+  font-size: 20px;
+  max-width: 600px;
+  font-family: marcellus;
+}
+
+.popup-contenido button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #F1F0CC;
+  border: none;
+  color: #0E0E33;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.popup-contenido button:hover {
+  background-color: #0E0E33;
+  color: #F1F0CC;
+}
+
+
+
+/* ----------------------------------------------------- historia ---------------------------------------------------------- */
 
 .textura_historia {
    background-image: url(img/img_web/web_textura_historia.jpg);
@@ -236,6 +318,8 @@ footer p {
     max-width: 900px;
 }
     
+
+
 .texto_pl {
   margin-top: 30px;
 }
@@ -262,7 +346,22 @@ footer p {
 
 
 
+/* --------------------------------------------------------- footer -------------------------------------------------------------- */
 
+footer {
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background: #F1F0CC;
+}
 
+footer p {
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: #0E0E33;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Marcellus;
 
-
+}
