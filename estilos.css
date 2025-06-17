@@ -139,7 +139,7 @@ main {
   border-radius: 20px;
 }
 
-.catalogo-extendido {
+.main-catalogo {
     background-image: url(img/img_web/web_texturas_catalogo_extendido.jpg);
     background-size: cover;
     background-position: center;
@@ -345,7 +345,6 @@ main {
     text-transform: uppercase;
     padding-right: 40px;
 }
-
 
 
 /* --------------------------------------------------------- footer -------------------------------------------------------------- */
