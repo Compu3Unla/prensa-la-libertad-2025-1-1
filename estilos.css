@@ -92,6 +92,7 @@ main {
 
 .main_catalogo {
     background-image: url(img/img_web/web_catalogo_texturas.jpg);
+    background-size: cover;
     background-position: center;
     padding: 40px;
     display: flex;
@@ -140,6 +141,7 @@ main {
 
 .catalogo-extendido {
     background-image: url(img/img_web/web_texturas_catalogo_extendido.jpg);
+    background-size: cover;
     background-position: center;
     padding: 40px;
     display: flex;
@@ -250,7 +252,8 @@ main {
 /* ----------------------------------------------------- historia ---------------------------------------------------------- */
 
 .textura_historia {
-   background-image: url(img/img_web/web_textura_historia.jpg);
+    background-image: url(img/img_web/web_textura_historia.jpg);
+    background-size: cover;
     padding: 40px;
     display: flex;
     flex-direction: column; 
