@@ -2,12 +2,13 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Catálogo - Prensa la Libertad</title>
+        <title>Taller - Prensa la Libertad</title>
         <link rel="icon" href="img/favicon_pl.svg" type="image/x-icon">
         <link href="estilos.css" rel="stylesheet" type="text/css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -26,7 +27,55 @@
            </nav>
         </header>
 
-        <main class="main_taller">
+        <main class="main-taller">
+
+             <!-- inicio del formulario -->
+            <section class="formulario">
+                
+                <form method="post" action="mailto:lu.devoto@hotmail.com?subject=Email enviado desde el formulario" target="_blank" enctype="text/plain">
+                    
+                    <!-- parte izquierda del formulario -->
+                    <div class="columna-izquierda-formulario">
+                        
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" maxlength="50" placeholder="Ej.: luciana" required>
+
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" name="apellido" id="apellido" maxlength="50" placeholder="Ej.: carrera" required>
+
+                        <label>Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Ej.: lu.carrera@hotmail.com" required>
+
+                        <p class="ayuda">te gustaria recibir novedades?</p>
+                        <label><input type="checkbox" name="intereses" value="si" id="si" required>si</label>
+                        <label><input type="checkbox" name="intereses" value="no" id="no" required>no</label>
+
+                    </div>
+
+                    <!-- parte derecha del formulario-->
+                    <div class="columna-derecha-formulario">
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" maxlength="500" placeholder="Hola Prensa la Libertad, me quería comunicar con vos para empezar el taller! Queria saber..." required></textarea>
+
+                        <p class="campos">*Campos obligatorios</p>
+
+                        <input type="reset" value="Borrar" class="borrar">
+                        <input type="submit" value="Enviar" class="enviar">
+                        
+                    </div>
+
+                </form>
+
+            </section>
+            <!-- final de formulario -->
+
+            <section class="info-taller">
+                <h1>Taller Autogestivo</h1>
+                <p>Este año decidí abrir el taller a la realización de una asamblea de trabajadorxs autogestivxs para compartir ideas de organización y visiones en esta tormenta,
+                   la entrada es libre y gratuita, están invitadxs</p>
+
+            </section>
           
         </main>
 
