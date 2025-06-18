@@ -103,10 +103,11 @@ main {
 }
 
 .main_catalogo p {
+    margin-bottom: 30px;
+    margin-top: 30px;
     width: 320px;
-    flex-shrink: 0;
     color: #0E0E33;
-    font-family: "Source Sans Pro";
+    font-family: "Roboto";
     font-size: 0,8rem;
     line-height: 30px;
     letter-spacing: 2px;
@@ -178,6 +179,12 @@ main {
 
 .galeria-visible p {
     margin-bottom: 30px;
+    width: 320px;
+    color: #0E0E33;
+    font-family: "Roboto";
+    font-size: 0,8rem;
+    line-height: 30px;
+    letter-spacing: 2px;
 }
 
 /* -------------------- Galería oculta ----------------------- */
@@ -529,10 +536,73 @@ textarea {
     
 }
 
+/* --------------------------------------------------------- contacto -------------------------------------------------------------- */
 
+.main-contacto {
+    background-image: url(img/img_web/web_texturas_contacto.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-left: 250px;
+    padding-bottom: 150px;
+}
 
+.ubicacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 150px;
+}
 
+.ubicacion h2 {
+    color: #0E0E33; 
+    text-align: right;
+    font-family: "Sofia Sans Extra Condensed";
+    font-size: 90px;
+    line-height: 110px;
+    letter-spacing: 10px;
+}
 
+.ubicacion-mapa p {
+    color: #0E0E33;
+    font-family: "Sofia Sans Extra Condensed";
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    max-width: 400px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.redes-sociales {
+    margin-top: 100px;
+    margin-left: 700px;
+}
+
+.redes-sociales h2 {
+    color: #0E0E33; 
+    text-align: right;
+    font-family: "Sofia Sans Extra Condensed";
+    font-size: 90px;
+    line-height: 110px;
+    letter-spacing: 10px;
+    margin-right: 800px;
+}
+
+.redes-sociales p {
+    color: #0E0E33; 
+    font-family: "Sofia Sans Extra Condensed";
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.redes-sociales ul li {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    list-style: none;
+}
 
 
 
