@@ -573,9 +573,8 @@ textarea {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  padding-top: 150px;
-  padding-left: 250px;
-  padding-bottom: 150px;
+  padding: 5% 10%;
+  gap: 50px;
 }
 
 .ubicacion {
@@ -635,7 +634,6 @@ textarea {
 }
 
 
-
 /* ------------------------ footer ------------------------------ */
 footer {
   display: flex;
@@ -653,7 +651,6 @@ footer p {
   font-weight: 700;
   font-family: Marcellus;
 }
-
 
 
 /* -------------------- menú hamburguesa y responsive -------------------- */
