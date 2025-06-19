@@ -4,7 +4,8 @@ Este proyecto consiste en el rediseño de una página web titulada ”Prensa la 
 
 ## Miembros del grupo
 Devoto Lucía
-Duarte Valentina
+
+Duarte Gutierrez Valentina Ailén
 
 
 ## Tamaño de pantalla utilizado
