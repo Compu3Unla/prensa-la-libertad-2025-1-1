@@ -400,11 +400,10 @@ main {
 }
 
 
-
 /* ------------------- taller ------------------------ */
 .main-taller {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   background-image: url(img/img_web/web_textura_taller.jpg);
   background-size: cover;
   padding-left: 100px;
@@ -871,7 +870,7 @@ footer p {
 
   /* ----- historia -----*/
   .textura_historia {
-    background-image: url(img/img_mobile/mobile_textura_historia.jpg);
+    background-image: url(img/img_web/mobile_textura_historia.jpg);
   }
 
   .quienes_somos {
@@ -890,6 +889,8 @@ footer p {
 
   .bloque1 {
     flex-direction: column-reverse;
+    margin-left: unset;
+    align-items: center;
   }
 
   .bloque1 h2 {
@@ -902,15 +903,20 @@ footer p {
   }   
 
   .bloque1 img {
-    height: 600px;
-    margin-left: 190px;
-    margin-top: 50px;
+    height: 600px;;
+    width: 600px;
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: unset;
   }
 
-  .bloque2 img {
-    height: 400px;
-    margin-right: 300px;
-  }
+
+
+   .bloque2 img {
+      height: 400px;
+      width: 400px;
+   }
 
 
   .bloque2 h3 {
@@ -922,15 +928,22 @@ footer p {
   .bloque2 {
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: unset;
   }
+
+  .decoracion img {
+    display: none;
+  } 
 
 
   /* ----- contacto -----*/
 
   .main-contacto {
-    background-image: url(img/img_mobile/mobile_texturas_contacto.jpg);
+    background-image: url(img/img_web/mobile_texturas_contacto.jpg);
     padding-top: 80px;
     padding-left: unset;
+    align-items: unset;
+    padding: unset;
 
   }
 
