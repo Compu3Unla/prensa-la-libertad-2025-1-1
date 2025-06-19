@@ -382,13 +382,16 @@ main {
   flex-direction: row;
   background-image: url(img/img_web/web_textura_taller.jpg);
   background-size: cover;
-  padding: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   justify-content: center;
 }
 
 /* -------------------- formulario -------------------- */
 form {
-  width: 90%;
+  width: 90%;           
   display: flex; 
   flex-wrap: wrap;
   justify-content: space-between;
@@ -424,8 +427,8 @@ label[type=checkbox] {
 }
 
 input {
-	width: 100%;
-	height: 30px;
+  width: 100%;
+  height: 30px;
   border-radius: 10px;
   border: 1px solid #0E0E33;
   color: #0E0E33;
@@ -435,17 +438,17 @@ input {
 }
 
 input[type=checkbox] {
-	width: auto;
-	height: auto; 
+  width: auto;
+  height: auto; 
   margin: 15px 10px;
   cursor: pointer;
 }
 
 input[type=submit], input[type=reset] {
-	height: 30px;
-	width: 150px;
+  height: 30px;
+  width: 150px;
   border: #0E0E33;
-	Color: #F1F0CC;
+  Color: #F1F0CC;
   border-radius: 10px;
   cursor: pointer;
   gap: 20px;
@@ -457,10 +460,10 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 }
 
 textarea {
-	Border: 1px solid #0E0E33;
-    background-color: #F1F0CC;
-	Width: 100%; 
-	Height: 200px;
+  Border: 1px solid #0E0E33;
+  background-color: #F1F0CC;
+  Width: 100%; 
+  Height: 200px;
   border-radius: 10px; 
   padding: 5px;
 } 
@@ -514,8 +517,8 @@ textarea {
 .formulario {
   Border: 1px solid #0E0E33;
   background-color: #F1F0CC;
-	Width: 70%; 
-	Height: 500px;
+  Width: 70%; 
+  Height: 500px;
   display: flex;
   border-radius: 20px;
   margin-bottom: 40px;
