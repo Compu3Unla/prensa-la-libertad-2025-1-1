@@ -7,40 +7,37 @@
   padding: 0;
 }
 
-
 body {
-  cursor: url('img/cursor.svg') 10 10, auto;
+  cursor: url('img/img_web/cursor.svg') 10 10, auto;
 }
+
 
 
 /* --------------------------- Header ------------------------------ */
 header {
-    display: flex;
-    height: 140px;
-    justify-content: center;
-    background: #F1F0CC;
-    padding: 10px 30px;
-    gap: 400px;
+  display: flex;
+  height: 140px;
+  justify-content: center;
+  background: #F1F0CC;
+  padding: 10px 30px;
+  gap: 400px;
 }
 
 .logo {
-    display: flex;
-    flex: row;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  flex: row;
+  align-items: center;
+  gap: 10px;
 }
-
-
 
  nav a {
-    text-decoration: none;
-    color: #0E0E33;
-    letter-spacing: 2px;
-    transition: color 0.3s ease; 
-
+  text-decoration: none;
+  color: #0E0E33;
+  letter-spacing: 2px;
+  transition: color 0.3s ease; 
 }
 
- nav a:hover {
+nav a:hover {
   color: white; 
   background: #0E0E33; 
   padding: 15px;
@@ -48,31 +45,32 @@ header {
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    font-family: Marcellus;
-    line-height: 42px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-family: Marcellus;
+  line-height: 42px; 
 }
 
 a {
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 700;
-    font-family: Marcellus;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Marcellus;
 }
 
 .logo p {
-color: #0E0E33;
-font-family: Marcellus;
-font-size: 26px;
-font-weight: 700;
-letter-spacing: 2.4px;
+  color: #0E0E33;
+  font-family: Marcellus;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
 }
 
-/* ---------------------- main _index -------------------------- */
 
+
+/* ---------------------- main _index -------------------------- */
 .video-wrapper {
   height: 100vh; 
 }
@@ -84,53 +82,52 @@ letter-spacing: 2.4px;
 }
 
 main {
-    z-index: 1;
+  z-index: 1;
 }
+
 
 
 /* ----------------------- catalogo -------------------------- */
-
 .main_catalogo {
-    background-image: url(img/img_web/web_catalogo_texturas.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 40px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;     
-    gap: 40px;
-    margin: auto;
+  background-image: url(img/img_web/web_catalogo_texturas.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;     
+  gap: 40px;
+  margin: auto;
 }
 
 .main_catalogo p {
-    margin-bottom: 30px;
-    margin-top: 30px;
-    width: 320px;
-    color: #0E0E33;
-    font-family: "Roboto";
-    font-size: 0,8rem;
-    line-height: 30px;
-    letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 320px;
+  color: #0E0E33;
+  font-family: "Roboto";
+  font-size: 0,8rem;
+  line-height: 30px;
+  letter-spacing: 2px;
 }
 
 .main_catalogo section {
-
-    gap: 40px;
+  gap: 40px;
 }
 
 .boton-vermas {
-    background: #F1F0CC;
-    color: #0E0E33;
-    font-family: Marcellus;
-    font-size: 22px;
-    padding: 10px 25px;
-    border-radius: 15px;
-    letter-spacing: 2px;
-    cursor: pointer;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    transition: background 0.3s ease;
+  background: #F1F0CC;
+  color: #0E0E33;
+  font-family: Marcellus;
+  font-size: 22px;
+  padding: 10px 25px;
+  border-radius: 15px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease;
 }
 
 .boton-vermas:hover {
@@ -141,16 +138,17 @@ main {
 }
 
 .main-catalogo {
-    background-image: url(img/img_web/web_texturas_catalogo_extendido.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 40px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;     
-    gap: 40px;
-    margin: auto;
+  background-image: url(img/img_web/web_texturas_catalogo_extendido.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;     
+  gap: 40px;
+  margin: auto;
 }
+
 
 
 /* ----------------- Galeria visible - catalogo -------------------- */
@@ -176,14 +174,16 @@ main {
 }
 
 .galeria-visible p {
-    margin-bottom: 30px;
-    width: 320px;
-    color: #0E0E33;
-    font-family: "Roboto";
-    font-size: 0,8rem;
-    line-height: 30px;
-    letter-spacing: 2px;
+  margin-bottom: 30px;
+  width: 320px;
+  color: #0E0E33;
+  font-family: "Roboto";
+  font-size: 0,8rem;
+  line-height: 30px;
+  letter-spacing: 2px;
 }
+
+
 
 /* -------------------- Galería oculta - catalogo ----------------------- */
 .galeria-oculta {
@@ -223,8 +223,6 @@ main {
 }
 
 .popup-contenido img {
-  /*max-width: 90%;
-  max-height: 90%;*/
   border-radius: 10px;
   margin-bottom: 16px;
 }
@@ -256,50 +254,49 @@ main {
 
 
 /* --------------------- historia ----------------------------- */
-
 .textura_historia {
-    background-image: url(img/img_web/web_textura_historia.jpg);
-    background-size: cover;
-    padding: 40px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;     
-    gap: 40px;
-    margin: auto;
+  background-image: url(img/img_web/web_textura_historia.jpg);
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;     
+  gap: 40px;
+  margin: auto;
 }
 
 .quienes_somos {
-    display: inline-flex;
-    flex-direction: column;
-    gap: 203px;
-    max-width: 576px;
-    margin-right: 800px;
-    margin-top: 50px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 203px;
+  max-width: 576px;
+  margin-right: 800px;
+  margin-top: 50px;
 }
 
 .quienes_somos p {
-    color: #F1F0CC;
-    text-align: right;
-    font-family: "Sofia Sans Extra Condensed";
-    font-size: 30px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+  color: #F1F0CC;
+  text-align: right;
+  font-family: "Sofia Sans Extra Condensed";
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
  
 .quienes_somos h1 {
-    color: #F1F1CC;
-    text-align: right;
-    font-family: "Sofia Sans Extra Condensed";
-    font-size: 100px;
-    line-height: 110px;
-    letter-spacing: 10px;
+  color: #F1F1CC;
+  text-align: right;
+  font-family: "Sofia Sans Extra Condensed";
+  font-size: 100px;
+  line-height: 110px;
+  letter-spacing: 10px;
 }
 
 .bloque1 {
-    display: flex;
-    flex-direction: row;
-    margin-left: -300px;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  margin-left: -300px;
+  align-items: flex-end;
 }
 
 .bloque1 img {
@@ -309,60 +306,59 @@ main {
 }
 
 .bloque1 h2 {
-    margin-left: 40px;
-    color: #F1F1CC;
-    font-family: "Sofia Sans Extra Condensed";
-    font-size: 100px;
-    letter-spacing: 10px;
-    text-transform: uppercase;
+  margin-left: 40px;
+  color: #F1F1CC;
+  font-family: "Sofia Sans Extra Condensed";
+  font-size: 100px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
 }
 
 .bloque1 p {
-    margin-left: 40px;
-    color: #F1F0CC;
-    font-family: "Roboto";
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 2.4px;
-    max-width: 900px;
+  margin-left: 40px;
+  color: #F1F0CC;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 2.4px;
+  max-width: 900px;
 }
-    
 
 .texto_pl {
   margin-top: 30px;
 }
 
 .bloque2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: -500px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: -500px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .bloque2 h3 {
-    max-width: 500px;
-    color: #F1F0CC;
-    text-align: right;
-    font-family: "Sofia Sans Extra Condensed";
-    font-size: 100px;
-    line-height: 110px;
-    text-transform: uppercase;
-    padding-right: 40px;
+  max-width: 500px;
+  color: #F1F0CC;
+  text-align: right;
+  font-family: "Sofia Sans Extra Condensed";
+  font-size: 100px;
+  line-height: 110px;
+  text-transform: uppercase;
+  padding-right: 40px;
 }
+
+
 
 /* ------------------- taller ------------------------ */
-
 .main-taller {
-    display: flex;
-    flex-direction: row;
-    background-image: url(img/img_web/web_textura_taller.jpg);
-    background-size: cover;
-    padding: 100px;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-image: url(img/img_web/web_textura_taller.jpg);
+  background-size: cover;
+  padding: 100px;
+  justify-content: center;
 }
-
 
 /* -------------------- formulario -------------------- */
 form {
@@ -452,7 +448,7 @@ textarea {
 }
 
 .contacto-personal ul {
-    border: #0E0E33;
+  border: #0E0E33;
   color: #0E0E33;
   text-align: center;
   font-family: Marcellus;
@@ -478,7 +474,7 @@ textarea {
 }
 
 .campos {
-    color: #0E0E33;
+  color: #0E0E33;
   border: #0E0E33;
   text-align: right;
   font-family: Marcellus;
@@ -517,109 +513,107 @@ textarea {
 
 
 
-
 /* -------------------- info taller -------------------- */
-
 .info-taller {
-    padding: 50px;
+  padding: 50px;
 }
 
 .info-taller h1 {
-    color: #F1F0CC;
-    font-family: "Sofia Sans Extra Condensed";
-    font-size: 70px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+  color: #F1F0CC;
+  font-family: "Sofia Sans Extra Condensed";
+  font-size: 70px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
     
 }
 
 .info-taller p {
-    color: #F1F0CC;
-    font-family: "Roboto";
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 2.4px;
-    max-width: 500px;
-    
+  color: #F1F0CC;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 2.4px;
+  max-width: 500px;    
 }
 
-/* ----------------------- contacto ------------------------------ */
 
+
+/* ----------------------- contacto ------------------------------ */
 .main-contacto {
-    background-image: url(img/img_web/web_texturas_contacto.jpg);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    padding-top: 150px;
-    padding-left: 250px;
-    padding-bottom: 150px;
+  background-image: url(img/img_web/web_texturas_contacto.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  padding-left: 250px;
+  padding-bottom: 150px;
 }
 
 .ubicacion {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 150px;
 }
 
 .ubicacion h2 {
-    color: #0E0E33; 
-    text-align: right;
-    font-family: "Sofia Sans Extra Condensed";
-    font-size: 90px;
-    line-height: 110px;
-    letter-spacing: 10px;
+  color: #0E0E33; 
+  text-align: right;
+  font-family: "Sofia Sans Extra Condensed";
+  font-size: 90px;
+  line-height: 110px;
+  letter-spacing: 10px;
 }
 
 .ubicacion-mapa p {
-    color: #0E0E33;
-    font-family: "Sofia Sans Extra Condensed";
-    font-size: 30px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    max-width: 400px;
-    margin-left: 250px;
-    margin-top: 30px;
+  color: #0E0E33;
+  font-family: "Sofia Sans Extra Condensed";
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  max-width: 400px;
+  margin-left: 250px;
+  margin-top: 30px;
 }
 
 .redes-sociales {
-    margin-top: 100px;
-    margin-left: 700px;
+  margin-top: 100px;
+  margin-left: 700px;
 }
 
 .redes-sociales h2 {
-    color: #0E0E33; 
-    text-align: right;
-    font-family: "Sofia Sans Extra Condensed";
-    font-size: 90px;
-    line-height: 110px;
-    letter-spacing: 10px;
-    margin-right: 800px;
+  color: #0E0E33; 
+  text-align: right;
+  font-family: "Sofia Sans Extra Condensed";
+  font-size: 90px;
+  line-height: 110px;
+  letter-spacing: 10px;
+  margin-right: 800px;
 }
 
 .redes-sociales p {
-    color: #0E0E33; 
-    font-family: "Sofia Sans Extra Condensed";
-    font-size: 30px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+  color: #0E0E33; 
+  font-family: "Sofia Sans Extra Condensed";
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .redes-sociales ul li {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    list-style: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  list-style: none;
 }
 
 
-/* ------------------------ footer ------------------------------ */
 
+/* ------------------------ footer ------------------------------ */
 footer {
-    display: flex;
-    height: 120px;
-    justify-content: center;
-    align-items: center;
-    background: #F1F0CC;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background: #F1F0CC;
 }
 
 footer p {
@@ -632,6 +626,7 @@ footer p {
 }
 
 
+
 /* -------------------- menú hamburguesa y responsive -------------------- */
 .menu-toggle {
   display: none;
@@ -642,7 +637,9 @@ footer p {
   cursor: pointer;
 }
 
-/* ------ mobile 600px ------ */
+
+
+/* ------------------- mobile 600px ---------------------- */
 @media screen and (max-width: 600px) {
 
   /* ----- header y nav ----- */
@@ -781,7 +778,6 @@ footer p {
   }
 
   /* ----- formulario taller -----*/
-
   .main-taller {
     flex-direction: column;
     align-items: center;
@@ -804,127 +800,123 @@ footer p {
     text-align: center;
   }
 
-
   /* ----- historia -----*/
-
   .textura_historia {
-        background-image: url(img/img_mobile/mobile_textura_historia.jpg);
-    }
+    background-image: url(img/img_mobile/mobile_textura_historia.jpg);
+  }
 
   .quienes_somos {
-        margin-right: 200px;
-    }
+    margin-right: 200px;
+  }
 
   .quienes_somos p {
-        text-align: unset;
-        max-width: 250px;
-        margin-left: 50px;
-    }
+    text-align: unset;
+    max-width: 250px;
+    margin-left: 50px;
+  }
 
-   .quienes_somos h1 {
-        font-size: 80px;
-    }
+  .quienes_somos h1 {
+    font-size: 80px;
+  }
 
-    .bloque1 {
-        flex-direction: column-reverse;
-    }
+  .bloque1 {
+    flex-direction: column-reverse;
+  }
 
-   .bloque1 h2 {
-        font-size: 50px;
-    }
+  .bloque1 h2 {
+    font-size: 50px;
+  }
 
-    .bloque1 p {
-        font-size: 20px;
-        max-width: 500px;
-    }   
+  .bloque1 p {
+    font-size: 20px;
+    max-width: 500px;
+  }   
 
-    .bloque1 img {
-        height: 600px;
-        margin-left: 190px;
-        margin-top: 50px;
-    }
+  .bloque1 img {
+    height: 600px;
+    margin-left: 190px;
+    margin-top: 50px;
+  }
 
-    .bloque2 img {
-        height: 400px;
-        margin-right: 300px;
-    }
-
-
-    .bloque2 h3 {
-        font-size: 40px;
-        padding-right: 30px;
-        line-height: unset;
-    }
-
-    .bloque2 {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
+  .bloque2 img {
+    height: 400px;
+    margin-right: 300px;
+  }
 
 
-   /* ----- contacto -----*/
+  .bloque2 h3 {
+    font-size: 40px;
+    padding-right: 30px;
+    line-height: unset;
+  }
 
-    .main-contacto {
-        background-image: url(img/img_mobile/mobile_texturas_contacto.jpg);
-        padding-top: 80px;
-        padding-left: unset;
-    }
-
-    .ubicacion {
-        margin-left: 100px;
-    }
-
-    .ubicacion h2 {
-        font-size: 70px;
-    }
-
-    .ubicacion-mapa {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .ubicacion-mapa iframe {
-        width: 400px;
-    }
-
-    .redes-sociales h2 {
-        font-size: 70px;
-        margin-right: unset;
-    }
-
-    .ubicacion-mapa p {
-       margin-left: unset;
-    }
-
-    .redes-sociales ul li p {
-       display: none;
-    }
-
-    .redes-sociales ul {
-        display: flex;
-        gap: 40px;
-        padding: 30px;
-    }
-
-    .redes-sociales ul li {
-        margin: 0;
-    }
-
-    .redes-sociales ul li img {
-        width: 70px;
-        height: 70px;
-    }
+  .bloque2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 
 
-    .redes-sociales {
-        margin-top: 100px;
-        margin-left: unset; 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  /* ----- contacto -----*/
 
+  .main-contacto {
+    background-image: url(img/img_mobile/mobile_texturas_contacto.jpg);
+    padding-top: 80px;
+    padding-left: unset;
+  }
+
+  .ubicacion {
+    margin-left: 100px;
+  }
+
+  .ubicacion h2 {
+    font-size: 70px;
+  }
+
+  .ubicacion-mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ubicacion-mapa iframe {
+    width: 400px;
+  }
+
+  .redes-sociales h2 {
+    font-size: 70px;
+    margin-right: unset;
+  }
+
+  .ubicacion-mapa p {
+    margin-left: unset;
+  }
+
+  .redes-sociales ul li p {
+    display: none;
+  }
+
+  .redes-sociales ul {
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+  }
+
+  .redes-sociales ul li {
+    margin: 0;
+  }
+
+  .redes-sociales ul li img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .redes-sociales {
+    margin-top: 100px;
+    margin-left: unset; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   /* Footer */
   footer p {
@@ -933,13 +925,3 @@ footer p {
     padding: 20px;
   }
 }
-
-
-
-
-
-
-
-
-
-
