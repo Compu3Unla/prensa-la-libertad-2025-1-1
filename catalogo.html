@@ -2,13 +2,14 @@
 <html>
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Catálogo - Prensa la Libertad</title>
         <link rel="icon" href="img/favicon_pl.svg" type="image/x-icon">
         <link href="estilos.css" rel="stylesheet" type="text/css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
-         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -18,7 +19,10 @@
               <img src="img/logo_header.svg" width="75px" height="76px" alt="logo prensa la libertad"/>
               <p>PRENSA LA LIBERTAD</p>
            </div>
-           <nav>
+
+           <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+           <nav class="botones" id="menu">
              <a href="index.html">Inicio</a>
              <a href="catalogo.html">Catálogo</a>
              <a href="historia.html">Historia</a>
@@ -28,42 +32,162 @@
          </header>
 
         <main class="main_catalogo">
-            <section>
-                 <div class="primer columna">
-                    <img src="img/img_web/web_misojos.jpg" width="326px" height="467px" alt="afiche mis ojos"/>
+            
+            <section class="galeria-visible">
+                
+                <div class="primer columna">
+                    <a href="#" onclick="mostrarGaleria()">
+                        <img src="img/img_web/web_misojos.jpg" width="326px" height="467px" alt="afiche mis ojos"/>
+                    </a>
                     <p>42cm x 29cm - composición tipográfica manual.</p>
-                    <img src="img/img_web/web_esperanza.jpg" width="326px" height="473px" alt="afiche esperanza"/>
+
+                    <a href="#foto-2" onclick="mostrarGaleria()">
+                        <img src="img/img_web/web_esperanza.jpg" width="326px" height="473px" alt="afiche esperanza"/>
+                    </a>
                     <p>42cm x 29cm - composición tipográfica manual.</p>
-                 </div>
+                </div>
+                
                 <div class="segunda columna">
-                    <img src="img/img_web/web_corazonpizarnik.jpg" width="326px" height="228px" alt="afiche corazon pizarnik"/>
+                    <a href="#foto-14" onclick="mostrarGaleria()">
+                        <img src="img/img_web/web_corazonpizarnik.jpg" width="326px" height="228px" alt="afiche corazon pizarnik"/>
+                    </a>
                     <p>42cm x 29cm - composición tipográfica manual.</p>
-                    <img src="img/img_web/web_lanoche.jpg" width="326px" height="497px" alt="afiche la noche"/>
+
+                    <a href="#foto-15" onclick="mostrarGaleria()">
+                        <img src="img/img_web/web_lanoche.jpg" width="326px" height="497px" alt="afiche la noche"/>
+                    </a>
                     <p>42cm x 29cm - composición tipográfica manual.</p>
                 </div>
+                
                 <div class="tercer columna">
-                    <img src="img/img_web/web_noquierasnadaparati.jpg" width="326px" height="452px" alt="afiche no quieras nada para ti"/>
+                    <a href="#foto-28" onclick="mostrarGaleria()">
+                        <img src="img/img_web/web_noquierasnadaparati.jpg" width="326px" height="452px" alt="afiche no quieras nada para ti"/>
+                    </a>
                     <p>42cm x 29cm - composición tipográfica manual.</p>
-                    <img src="img/img_web/web_resistir.jpg" width="326px" height="459px" alt="afiche resistir"/>
+
+                    <a href="#foto-29" onclick="mostrarGaleria()">
+                        <img src="img/img_web/web_resistir.jpg" width="326px" height="459px" alt="afiche resistir"/>
+                    </a>
                     <p>42cm x 29cm - composición tipográfica manual.</p>
                 </div>
+                
                 <div class="cuarta columna">
-                    <img src="img/img_web/web_lapregunta.jpg" width="326px" height="233px" alt="afiche la pregunta"/>
+                    <a href="#foto-42" onclick="mostrarGaleria()">
+                        <img src="img/img_web/web_lapregunta.jpg" width="326px" height="233px" alt="afiche la pregunta"/>
+                    </a>
                     <p>42cm x 29cm - composición tipográfica manual.</p>
-                    <img src="img/img_web/web_burn.jpg" width="326px" height="494px" alt="afiche burn"/>
+
+                    <a href="#foto-43" onclick="mostrarGaleria()">
+                        <img src="img/img_web/web_burn.jpg" width="326px" height="494px" alt="afiche burn"/>
+                    </a>
                     <p>42cm x 29cm - composición tipográfica manual.</p>
                 </div>
-          </section>
-          <section>
+
+            </section>
+
+            <section id="galeria" class="galeria-oculta">
+                
+                <div class="primer-columna">
+                    
+                    <ul>
+                        <li class="popup-contenido" id="foto-1">
+                            <button onclick="ocultarGaleria()">Cerrar</button>
+                            <img src="img/img_web/web_misojos.jpg" width="326px" height="467px" alt="afiche mis ojos"/>
+                            <p>42cm x 29cm - composición tipográfica manual.</p>
+                        </li>
+
+                        <li class="popup-contenido" id="foto-2">
+                            <button onclick="ocultarGaleria()">Cerrar</button>
+                            <img src="img/img_web/web_esperanza.jpg" width="326px" height="473px" alt="afiche esperanza"/>
+                            <p>42cm x 29cm - composición tipográfica manual.</p>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="segunda columna">
+                    
+                    <ul>
+                        <li class="popup-contenido" id="foto-14">
+                            <button onclick="ocultarGaleria()">Cerrar</button>
+                            <img src="img/img_web/web_corazonpizarnik.jpg" width="326px" height="228px" alt="afiche corazon pizarnik"/>
+                            <p>42cm x 29cm - composición tipográfica manual.</p>
+                        </li>
+
+                        <li class="popup-contenido" id="foto-15">  
+                            <button onclick="ocultarGaleria()">Cerrar</button>                    
+                            <img src="img/img_web/web_lanoche.jpg" width="326px" height="497px" alt="afiche la noche"/>
+                            <p>42cm x 29cm - composición tipográfica manual.</p>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="tercer columna">
+                    
+                    <ul>
+                        <li class="popup-contenido" id="foto-28">  
+                            <button onclick="ocultarGaleria()">Cerrar</button>                    
+                            <img src="img/img_web/web_noquierasnadaparati.jpg" width="326px" height="452px" alt="afiche no quieras nada para ti"/>
+                            <p>42cm x 29cm - composición tipográfica manual.</p>
+                        </li>
+
+                        <li class="popup-contenido" id="foto-29">  
+                            <button onclick="ocultarGaleria()">Cerrar</button>                    
+                            <img src="img/img_web/web_resistir.jpg" width="326px" height="459px" alt="afiche resistir"/>
+                            <p>42cm x 29cm - composición tipográfica manual.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cuarta columna">
+
+                    <ul>
+                        <li class="popup-contenido" id="foto-42">  
+                            <button onclick="ocultarGaleria()">Cerrar</button>                    
+                            <img src="img/img_web/web_lapregunta.jpg" width="326px" height="233px" alt="afiche la pregunta"/>
+                            <p>42cm x 29cm - composición tipográfica manual.</p>
+                        </li>
+
+                        <li class="popup-contenido" id="foto-43">  
+                            <button onclick="ocultarGaleria()">Cerrar</button>                    
+                            <img src="img/img_web/web_burn.jpg" width="326px" height="494px" alt="afiche burn"/>
+                            <p>42cm x 29cm - composición tipográfica manual.</p>
+                        </li>
+                    </ul>
+                
+                </div>
+            </section>
+            
+            <section>
                 <a  href="catalogo-extendido.html" class="boton-vermas">VER MÁS</a>
-          </section>
-           
-         
+            </section>
+ 
         </main>
 
         <footer>
             <p>TODOS LOS DERECHOS RESERVADOS © 2024 PRENSA LA LIBERTAD</p>
         </footer>
 
+        <script>
+            function mostrarGaleria() {
+            document.getElementById("galeria").style.display = "flex";
+        }
+
+            function ocultarGaleria() {
+            document.getElementById("galeria").style.display = "none";
+            window.location.hash = "";
+        }
+        </script>
+
+        <!-- menú hamburguesa -->
+        <script>
+            function toggleMenu() {
+                const menu = document.getElementById('menu');
+                menu.classList.toggle('activo');
+            }
+        </script>
+
     </body>
+    
 </html>

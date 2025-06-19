@@ -3,13 +3,14 @@
     
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Catálogo - Prensa la Libertad </title>
         <link rel="icon" href="img/favicon_pl.svg" type="image/x-icon">
         <link href="estilos.css" rel="stylesheet" type="text/css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
-         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -19,7 +20,10 @@
                 <img src="img/logo_header.svg" width="75px" height="76px" alt="logo prensa la libertad"/>
                 <p>PRENSA LA LIBERTAD</p>
             </div>
-            <nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+            <nav class="botones" id="menu">
                 <a href="index.html">Inicio</a>
                 <a href="catalogo.html">Catálogo</a>
                 <a href="historia.html">Historia</a>
@@ -71,6 +75,14 @@
         <footer>
             <p>TODOS LOS DERECHOS RESERVADOS © 2024 PRENSA LA LIBERTAD</p>
         </footer>
+
+        <!-- menú hamburguesa -->
+        <script>
+            function toggleMenu() {
+                const menu = document.getElementById('menu');
+                menu.classList.toggle('activo');
+            }
+        </script>
 
     </body>
 
