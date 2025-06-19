@@ -272,6 +272,8 @@ main {
 }
 
 .popup-contenido img {
+  width: auto;
+  height: 550px;
   border-radius: 10px;
   margin-bottom: 16px;
 }
