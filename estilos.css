@@ -87,10 +87,10 @@ main {
 
 .boton-ingresar {
   position: absolute;
-  margin-top: -300px;
+  margin-top: -200px;
   left: 50%;
   transform: translate(-50%, -50%);
- background-color: rgba(14, 14, 51, 0.8);
+  background-color: rgba(14, 14, 51, 0.8);
   padding: 20px 60px;
   border-radius: 30px;
   transition: background 0.3s ease;
