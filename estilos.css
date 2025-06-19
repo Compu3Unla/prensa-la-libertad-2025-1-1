@@ -568,6 +568,7 @@ textarea {
 
 
 /* ----------------------- contacto ------------------------------ */
+
 .main-contacto {
   background-image: url(img/img_web/web_texturas_contacto.jpg);
   background-size: cover;
@@ -575,6 +576,13 @@ textarea {
   flex-direction: column;
   padding: 5% 10%;
   gap: 50px;
+  align-items:center
+}
+
+.contenedor-contacto {
+  max-width: 1530px;
+  display: flex;
+  flex-direction:column
 }
 
 .ubicacion {
