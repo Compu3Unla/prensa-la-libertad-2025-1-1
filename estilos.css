@@ -773,8 +773,13 @@ footer p {
   }
 
   /* ----- formulario taller -----*/
-  .formulario {
+
+  .main-taller {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .formulario {
     width: 90%;
     height: auto;
   }
@@ -790,6 +795,128 @@ footer p {
     max-width: 100%;
     text-align: center;
   }
+
+
+  /* ----- historia -----*/
+
+  .textura_historia {
+        background-image: url(img/img_mobile/mobile_textura_historia.jpg);
+    }
+
+  .quienes_somos {
+        margin-right: 200px;
+    }
+
+  .quienes_somos p {
+        text-align: unset;
+        max-width: 250px;
+        margin-left: 50px;
+    }
+
+   .quienes_somos h1 {
+        font-size: 80px;
+    }
+
+    .bloque1 {
+        flex-direction: column-reverse;
+    }
+
+   .bloque1 h2 {
+        font-size: 50px;
+    }
+
+    .bloque1 p {
+        font-size: 20px;
+        max-width: 500px;
+    }   
+
+    .bloque1 img {
+        height: 600px;
+        margin-left: 190px;
+        margin-top: 50px;
+    }
+
+    .bloque2 img {
+        height: 400px;
+        margin-right: 300px;
+    }
+
+
+    .bloque2 h3 {
+        font-size: 40px;
+        padding-right: 30px;
+        line-height: unset;
+    }
+
+    .bloque2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+   /* ----- contacto -----*/
+
+    .main-contacto {
+        background-image: url(img/img_mobile/mobile_texturas_contacto.jpg);
+        padding-top: 80px;
+        padding-left: unset;
+    }
+
+    .ubicacion {
+        margin-left: 100px;
+    }
+
+    .ubicacion h2 {
+        font-size: 70px;
+    }
+
+    .ubicacion-mapa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ubicacion-mapa iframe {
+        width: 400px;
+    }
+
+    .redes-sociales h2 {
+        font-size: 70px;
+        margin-right: unset;
+    }
+
+    .ubicacion-mapa p {
+       margin-left: unset;
+    }
+
+    .redes-sociales ul li p {
+       display: none;
+    }
+
+    .redes-sociales ul {
+        display: flex;
+        gap: 40px;
+        padding: 30px;
+    }
+
+    .redes-sociales ul li {
+        margin: 0;
+    }
+
+    .redes-sociales ul li img {
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .redes-sociales {
+        margin-top: 100px;
+        margin-left: unset; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
   /* Footer */
   footer p {
