@@ -635,7 +635,7 @@ footer p {
 }
 
 /* ------ mobile 600px ------ */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
   /* ----- header y nav ----- */
   .menu-toggle {
